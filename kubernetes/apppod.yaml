@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: applicationpod
+  labels:
+    env: appdb
+spec:
+  containers:
+  - image: iam7hills/dockerdemo:tomcatkatalon
+    name: app1
+    ports:
+    - containerPort: 8080
+    imagePullPolicy: Always
