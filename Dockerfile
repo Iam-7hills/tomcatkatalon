@@ -1,4 +1,4 @@
-FROM tomcat:8-alpine
+FROM clearpursuitdocker/tomcat9-jdk11-lite:latest
 
 
 #RUN rm -r /usr/local/tomcat/webapps/ROOT
