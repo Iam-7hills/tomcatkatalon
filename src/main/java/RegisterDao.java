@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class RegisterDao {
-	private String dburl = "jdbc:mysql://localhost:3306/userdb";
+	private String dburl = "jdbc:mysql://mysqldb:3306/userdb";
 	private String dbuname = "root";
 	private String dbpassword = "admin";
 	private String dbdriver = "com.mysql.jdbc.Driver";
